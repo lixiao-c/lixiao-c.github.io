@@ -1,10 +1,10 @@
 <div>
 <table border="0">
   <tr>
-    <td width="30%">
+    <td width="50%">
       <img src="/pic.jpg" width="100%">
     </td>
-    <td width="70%">
+    <td width="50%">
       <h2>Lixiao Cui</h2>
       <p><b>College of Computer Science, Nankai University</b></p>
       <p><b>38 Tongyan Road, Tianjin China 300350</b></p>
