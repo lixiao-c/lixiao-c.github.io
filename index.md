@@ -43,7 +43,7 @@ Bytedance Inc., China
 
 ---
 ### Awards
-**Excellent Undergraduate Thesis**, Nankai University, 2019
+**Excellent Undergraduate Thesis**, Nankai University, 2019  
 **National Scholarship**, Nankai University, 2018  
 **Merit Students**, Nankai University, 2016, 2018 and 2019
 
