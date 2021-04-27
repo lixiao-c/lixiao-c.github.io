@@ -1,17 +1,4 @@
-## Lixiao Cui's Home Page | Nankai University
 
-<div>
-<table border="0">
-  <tr>
-    <td width="70%">
-      <h2>Lixiao Cui</h2>
-      <p><b>College of Computer Science, Nankai University</b></p>
-      <p><b>38 Tongyan Road, Tianjin China 300350</b></p>
-      <p><b>Email: cuilx@nbjl.nankai.edu.cn</b></p>
-    </td>
-  </tr>
-</table>
-</div>
 
 ---
 ### Biography
