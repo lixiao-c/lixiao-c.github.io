@@ -11,7 +11,7 @@
 
 ---
 ### Biography
-I am a Master student at College of Computer Sciences, Nankai University. I study storage systems, aiming to build high-performance Key-Value system and indices for emerging storage devices (e.g., Optane SSD and Persistent Memory).
+I am a master student at College of Computer Sciences, Nankai University. I study storage systems, aiming to build high-performance Key-Value system and indices for emerging storage devices, especially persistent memory.
 
 ---
 ### Education
@@ -37,12 +37,13 @@ Bytedance Inc., China
 
 ---
 ### Teaching Assistant
-**Fall 2020**　 Compiler Principle, Nankai University  
-**Spring 2019**　 Data Structure, Nankai University  
-**Fall 2019** 　　The Programming Language C++, Nankai University  
+**Fall 2020**       Compiler Principle, Nankai University  
+**Spring 2019**     Data Structure, Nankai University  
+**Fall 2018**       The Programming Language C++, Nankai University  
 
 ---
 ### Awards
+**Excellent Undergraduate Thesis**, Nankai University, 2019
 **National Scholarship**, Nankai University, 2018  
 **Merit Students**, Nankai University, 2016, 2018 and 2019
 
