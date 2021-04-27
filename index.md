@@ -16,7 +16,7 @@ I am a master student at College of Computer Sciences, Nankai University. I stud
 ---
 ### Education
 #### 2019.08–present M.S. in Computer Science and Technology
-Nankai University, Tianjin, China. Advisor: Professor Gang Wang
+Nankai University, Tianjin, China. Advisor: Professor [Gang Wang](https://cc.nankai.edu.cn/2019/1010/c13619a209638/page.htm)
 #### 2015.09–2019.06 LL.B. in Law (dual degree)
 Nankai University, Tianjin, China.
 #### 2015.09–2019.06 B.Sc. in Information Security
