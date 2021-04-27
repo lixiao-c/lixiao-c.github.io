@@ -11,7 +11,7 @@
 
 ---
 ### Biography
-I am a master student at [Nankai-Baidu joint Lab](nbjl.nankai.edu.cn), College of Computer Sciences, Nankai University. I study storage systems, aiming to build high-performance Key-Value system and indices for emerging storage devices, especially persistent memory.
+I am a master student at [Nankai-Baidu joint Lab](https://nbjl.nankai.edu.cn), College of Computer Sciences, Nankai University. I study storage systems, aiming to build high-performance Key-Value system and indices for emerging storage devices, especially persistent memory.
 
 ---
 ### Education
