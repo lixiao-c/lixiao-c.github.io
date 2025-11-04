@@ -1,0 +1,92 @@
+pubs = [
+        {
+        "title": " Dynamically Detect and Fix Hardness for Efficient Approximate Nearest Neighbor Search.",
+        "authors": "Zhiyuan Hua, Qiji Mo, Zebin Yao, Lixiao Cui *, Xiaoguang Liu *, Gang Wang, Zijing Wei, Xinyu Liu, Tianxiao Tang, Shaozhi Liu, Lin Qu.",
+        "href": "https://arxiv.org/abs/2510.22316",
+        "epilogue": "ACM Conference on Management of Data (SIGMOD’26), 2026."
+        },
+        {
+        "title": " PIMLex: A High-Performance Learned Index with Processing-in-Memory.",
+        "authors": "Lixiao Cui , Kedi Yang, Yusen Li, Gang Wang, Xiaoguang Liu.",
+        "href": "https://www.usenix.org/system/files/fast25-cui.pdf",
+        "epilogue": "23rd USENIX Conference on File and Storage Technologies (FAST’25), 2025."
+        },
+        {
+        "title": " Towards Optimizing Learned Index for High Performance, Memory Efficiency and NUMA Awareness. ",
+        "authors": "Lixiao Cui, Kedi Yang, Yusen Li, Gang Wang, Xiaoguang Liu.",
+        "href": "https://dl.acm.org/doi/10.1145/3736168",
+        "epilogue": "ACM Trans. Archit. Code Optim. (TACO) 22(3): 109:1-109:26 (2025)."
+        },
+        {
+        "title": " GPComp: Using GPU and SSD-GPU Peer to Peer DMA to Accelerate LSM-Tree Compaction for Key-Value Store.",
+        "authors": "Hao Zhou, Yuanhui Chen, Wu Zeng, Lixiao Cui, Gang Wang, Xiaoguang Liu.",
+        "href": "https://doi.org/10.1109/TPDS.2025.3586616",
+        "epilogue": "IEEE Trans. Parallel Distributed Syst. (TPDS) 36(9): 1920-1936 (2025)"
+        },
+        {
+        "title": "ALGAS: A Low-Latency GPU-Based Approximate Nearest Neighbor Search System.",
+        "authors": "Yuanhui Chen, Lixiao Cui, Zebin Yao, Hao Zhou, Gang Wang, Xiaoguang Liu.",
+        "href": "https://ieeexplore.ieee.org/document/11078499",
+        "epilogue": "IEEE International Parallel and Distributed Processing Symposium (IPDPS), 2025."
+        },
+        {
+        "title": "When Learned Indexes Meet Persistent Memory: The Analysis and the Optimization.",
+        "authors": "Lixiao Cui, Yijing Luo, Yusen Li, Gang Wang, Xiaoguang Liu.",
+        "href": "https://doi.org/10.1109/TKDE.2023.3342825",
+        "epilogue": "IEEE Trans. Knowl. Data Eng. (TKDE) 36(12): 9517-9531 (2024)"
+       },
+        {
+        "title": "SwapKV: A Hotness Aware In-Memory Key-Value Store for Hybrid Memory Systems. ",
+        "authors": "Lixiao Cui, Kewen He, Yusen Li, Peng Li, Jiachen Zhang, Gang Wang, Xiaoguang Liu.",
+        "href": "https://ieeexplore.ieee.org/document/9423547/",
+        "epilogue": "IEEE Trans. Knowl. Data Eng. (TKDE) 35(1): 917-930 (2023)"
+      },
+      
+       {
+        "title": "DiffLex: A High-Performance, Memory-Efficient and NUMA-Aware Learned Index using Differentiated Management.",
+        "authors": "Lixiao Cui, Kedi Yang, Yusen Li, Gang Wang, Xiaoguang Liu",
+        "href": "https://dl.acm.org/doi/10.1145/3605573.3605590",
+        "epilogue": "Proceedings of the 52nd International Conference on Parallel Processing (ICPP), 2023"
+      },
+      {
+        "title": "H2KV: A Hotspot Awareness based Hybrid Fault-tolerant In-memory Key-Value Store.",
+        "authors": "Lixiao Cui, Yingjie Geng, Gang Wang, Xiaoguang Liu",
+        "href": "https://www.storageconference.us/",
+        "epilogue": "International Conference on Massive Storage Systems and Technology (MSST), 2024"
+      },
+      {
+        "title": "A GPU-accelerated Compaction Strategy for LSM-based Key-Value Store System.",
+        "authors": "Hao Zhou, Yuanhui Chen, Lixiao Cui, Gang Wang, Xiaoguang Liu",
+        "href": "https://www.storageconference.us/",
+        "epilogue": "International Conference on Massive Storage Systems and Technology (MSST), 2024"
+      },
+      {
+        "title": "Toward Virtual Machine Image Management for Persistent Memory.",
+        "authors": "Jiachen Zhang, Lixiao Cui, Peng Li, Xiaoguang Liu, Gang Wang",
+        "href": "https://dl.acm.org/doi/10.1145/3450976",
+        "epilogue": "ACM Transactions on Storage (TOS), 2021."
+      },
+]
+
+document.querySelector("#PubList").innerHTML = pubs.map(pub => {
+    var authors = pub.authors.split(",").map(author => {
+        if (author.includes("*")) {
+            return `<strong>${author}</strong>`
+        } else {
+            return author
+        }
+    }).join(", ")
+
+    var title = `${pub.title}`
+    var epilogue = pub.epilogue.replace("(", "(<strong>").replace(")", "</strong>)")
+    var href = `[<a href="${pub.href}">PDF</a>]`
+
+    return `<li>
+                <p>
+                    ${authors} <br> 
+                    ${title} <br> 
+                    ${epilogue} <br>
+                    ${href}
+                </p>
+            </li>`
+}).join("\n")
