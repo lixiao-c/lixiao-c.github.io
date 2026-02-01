@@ -6,6 +6,18 @@ pubs = [
         "epilogue": "ACM Conference on Management of Data (SIGMOD’26), 2026."
         },
         {
+          "title": " Demystifying and Enhancing the Efficiency of Large Language Model Based Search Agents.",
+          "authors": "Tiannuo Yang, Zebin Yao, Bowen Jin, Lixiao Cui, Yusen Li, Gang Wang, xiaoguang Liu, Willie Neiswanger",
+          "href": "",
+          "epilogue": "International Conference on Learning Representations (ICLR’26), 2026."
+        },
+        {
+          "title": " DCLex: An on-Disk Learned Index with Optimized I/O and Caching.",
+          "authors": "Zhuoran Wang, Lixiao Cui, Gang Wang, Xiaoguang Liu.",
+          "href": "",
+          "epilogue": "31st International Conference on Database Systems for Advanced Applications (DASFAA), 2026."
+        },
+        {
         "title": " PIMLex: A High-Performance Learned Index with Processing-in-Memory.",
         "authors": "Lixiao Cui , Kedi Yang, Yusen Li, Gang Wang, Xiaoguang Liu.",
         "href": "https://www.usenix.org/system/files/fast25-cui.pdf",
@@ -72,7 +84,10 @@ document.querySelector("#PubList").innerHTML = pubs.map(pub => {
     var authors = pub.authors.split(",").map(author => {
         if (author.includes("*")) {
             return `<strong>${author}</strong>`
-        } else {
+        }else if (author.includes("Lixiao Cui")) {
+          return `<strong>${author}</strong>`
+        }  
+        else {
             return author
         }
     }).join(", ")
