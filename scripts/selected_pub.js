@@ -6,14 +6,26 @@ pubs = [
         "epilogue": "ACM Conference on Management of Data (SIGMOD’26), 2026."
         },
         {
+          "title": " Overcoming the Sync-Compute Dilemma in Parallel Graph-Based Vector Retrieval.",
+          "authors": "Qiji Mo, Zhiyuan Hua, Zebin Yao, Lixiao Cui *, Gang Wang, Xiaoguang Liu *, Zijing Wei, Xinyu Liu, Tianxiao Tang, Shaozhi Liu, Lin Qu.",
+          "href": "",
+          "epilogue": "2026 IEEE International Conference on Data Engineering (ICDE)."
+        },
+        {
+          "title": " GoCache: Accelerating Out-of-Core Graph Queries with Pattern-Driven Caching.",
+          "authors": "Zheng Yang, Yicheng Zhang, Lixiao Cui, Luofan Chen, Chongzhuo Yang, Xiaojian Luo, Sijie Shen, Wenyuan Yu, Jingren Zhou, Cheng Li.",
+          "href": "",
+          "epilogue": "2026 IEEE International Conference on Data Engineering (ICDE)."
+        },
+        {
           "title": " Demystifying and Enhancing the Efficiency of Large Language Model Based Search Agents.",
-          "authors": "Tiannuo Yang, Zebin Yao, Bowen Jin, Lixiao Cui, Yusen Li, Gang Wang, xiaoguang Liu, Willie Neiswanger",
+          "authors": "Tiannuo Yang, Zebin Yao, Bowen Jin, Lixiao Cui *, Yusen Li, Gang Wang, Xiaoguang Liu, Willie Neiswanger *",
           "href": "",
           "epilogue": "International Conference on Learning Representations (ICLR’26), 2026."
         },
         {
           "title": " DCLex: An on-Disk Learned Index with Optimized I/O and Caching.",
-          "authors": "Zhuoran Wang, Lixiao Cui, Gang Wang, Xiaoguang Liu.",
+          "authors": "Zhuoran Wang, Lixiao Cui*, Gang Wang*, Xiaoguang Liu.",
           "href": "",
           "epilogue": "31st International Conference on Database Systems for Advanced Applications (DASFAA), 2026."
         },
