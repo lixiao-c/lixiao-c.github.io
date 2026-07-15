@@ -1,11 +1,11 @@
 teachings = [ 
     {
-        "title": "Parallel Programming",
-        "year": "2026 Spring (incoming)",
+        "title": "Introduction to Parallel Programming",
+        "year": "2026 Spring",
     },
     {
         "title": "Frontiers of Computer Systems",
-        "year": "2026 Spring (incoming)",
+        "year": "2026 Spring",
     },
     // {
     //     "title": "Computer Programming (TA)",

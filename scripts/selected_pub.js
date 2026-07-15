@@ -1,8 +1,26 @@
 pubs = [
         {
+        "title": " Enhancing the Performance of Learned Index on Processing-in-Memory Architecture.",
+        "authors": "Lixiao Cui , Kedi Yang, Yusen Li, Gang Wang, Xiaoguang Liu.",
+        "href": "https://dl.acm.org/doi/10.1145/3829362",
+        "epilogue": "ACM Transactions on Storage (TOS), 2026."
+        },
+        {
+        "title": " PIM-Pai: Boosting the Performance of Index Structures with Minimal Effort on Processing-in-Memory Architecture.",
+        "authors": "Lixiao Cui , Kedi Yang, Zhuoran Wang, Xinming Yuan, Yusen Li, Gang Wang, Xiaoguang Liu.",
+        "href": "",
+        "epilogue": "55th International Conference on Parallel Processing (ICPP), 2026"
+        },
+        {
+        "title": " PIM-Forge: Toward Autonomous PIM Kernel Synthesis through Constraint-Guided Hardware Exploration.",
+        "authors": "Yixing Du, Qingyun Tang, Lixiao Cui , Yusen Li, Gang Wang, Xiaoguang Liu.",
+        "href": "",
+        "epilogue": "55th International Conference on Parallel Processing (ICPP), 2026"
+        },
+        {
         "title": " Dynamically Detect and Fix Hardness for Efficient Approximate Nearest Neighbor Search.",
         "authors": "Zhiyuan Hua, Qiji Mo, Zebin Yao, Lixiao Cui *, Xiaoguang Liu *, Gang Wang, Zijing Wei, Xinyu Liu, Tianxiao Tang, Shaozhi Liu, Lin Qu.",
-        "href": "https://arxiv.org/abs/2510.22316",
+        "href": "https://dl.acm.org/doi/10.1145/3769783",
         "epilogue": "ACM Conference on Management of Data (SIGMOD’26), 2026."
         },
         {
@@ -26,7 +44,7 @@ pubs = [
         {
           "title": " DCLex: An on-Disk Learned Index with Optimized I/O and Caching.",
           "authors": "Zhuoran Wang, Lixiao Cui*, Gang Wang*, Xiaoguang Liu.",
-          "href": "",
+          "href": "https://link.springer.com/chapter/10.1007/978-981-92-0363-5_35",
           "epilogue": "31st International Conference on Database Systems for Advanced Applications (DASFAA), 2026."
         },
         {
